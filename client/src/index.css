@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+  --red-color: #ff4e24 ;
+}
+
+html {
+  scroll-behavior: smooth!important;
+}
+
+.line{
+  display: inline!important;
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth!important;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5!important;
+}
+.edge-para{
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  width: 40%!important;
+}
+
+.parallelogram{
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  background: var(--red-color);
+  width: 40%!important;
+}
+
+@media (max-width: 768px) {
+  .parallelogram{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    width: 100%!important;
+  }
+  
+}
