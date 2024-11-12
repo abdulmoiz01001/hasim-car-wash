@@ -24,10 +24,10 @@ const ContactUs = () => {
     onSubmit: async (values, { resetForm }) => {
       console.log("values: ", values)
 
-      const localhost = "https://hasim-server.vercel.app" || "http://localhost:5000" 
+      const localhost = "https://hasim-server-967rg8a80-abdul-moizs-projects-a24e34a8.vercel.app" || "http://localhost:5000" 
       
       try {
-        const response = await fetch(`${localhost}/api/contact`, {
+        const response = await fetch(`https://hasim-server.vercel.app/api/contact`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

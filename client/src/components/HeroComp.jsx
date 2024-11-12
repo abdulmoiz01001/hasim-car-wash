@@ -28,7 +28,7 @@ const HeroComp = () => {
                 </div>
 
                 {/* Service Type Select */}
-                <div className=" flex w-[60%] h-[60px] border-2 tablet:w-full mobile:w-full justify-between items-center">
+                <div className=" flex w-[60%] h-[60px]  tablet:w-full mobile:w-full justify-between items-center">
                
                   <h1 className="text-gray-600 font-semibold text-lg"> Door Steps car Wash Service</h1>
                 </div>
