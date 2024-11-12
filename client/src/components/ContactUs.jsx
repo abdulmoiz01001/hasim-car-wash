@@ -24,7 +24,7 @@ const ContactUs = () => {
     onSubmit: async (values, { resetForm }) => {
       console.log("values: ", values)
 
-      const localhost = "https://hasim-server.vercel.app" || "http://localhost:5000"
+      const localhost = "https://hasim-server.vercel.app" || "http://localhost:5000" 
       
       try {
         const response = await fetch(`${localhost}/api/contact`, {
